@@ -21,10 +21,10 @@ parser/validator/base_validator.o: parser/validator/base_validator.c parser/vali
 parser/validator/canvas_entity_validator.o: parser/validator/canvas_entity_validator.c parser/validator/canvas_entity_validator.h parser/validator/base_validator.h base_structs.h
 	$(CC) $(CFLAGS) -c parser/validator/canvas_entity_validator.c -o parser/validator/canvas_entity_validator.o
 
-consoleLogs/help.o: consoleLogs/help.c consoleLogs/help.h:
+consoleLogs/help.o: consoleLogs/help.c consoleLogs/help.h
 	$(CC) $(CFLAGS) -c consoleLogs/help.c -o consoleLogs/help.o
 
-consoleLogs/info.o: consoleLogs/info.c consoleLogs/info.h base_structs.h:
+consoleLogs/info.o: consoleLogs/info.c consoleLogs/info.h base_structs.h
 	$(CC) $(CFLAGS) -c consoleLogs/info.c -o consoleLogs/info.o
 
 

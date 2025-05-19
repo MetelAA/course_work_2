@@ -3,17 +3,34 @@
 #include "consoleLogs/help.h"
 #include "consoleLogs/info.h"
 
+char** copyArgv(char **argv, int argc){
+    char** copy = malloc(argc * sizeof(char*));
+    for (int i = 0; i < argc; ++i) {
+        copy[i] = malloc((strlen(argv[i])+ 1) * sizeof(char));
+        strcpy(copy[i], argv[i]);
+    }
+    return copy;
+}
+
+
 int main(int argc, char* argv[]) {
     printf("Course work for option 5.2, created by Artem Metelskii\n");
 
-    enum FuncType fType = get_func_type(argc, argv);
+    printf("argc - %d\n", argc);
+    for (int i = 0; i < argc; ++i) {
+        printf("argv %d - %s\n", i, argv[i]);
+    }
+
+    char** argv_copy = copyArgv(argv, argc);
+    enum FuncType fType = get_func_type(argc, argv_copy);
     int arg_num = 1; //там всегда есть название программы
 
     char *input_file_name = malloc(120 * sizeof(char));
     if (input_file_name != NULL) {
         input_file_name[0] = '\0';
     }
-    if (get_input_file_name_and_has_iFlag(argc, argv, input_file_name))
+    argv_copy = copyArgv(argv, argc);
+    if (get_input_file_name_and_has_iFlag(argc, argv_copy, input_file_name))
         arg_num += 2;//+1 ещё за имя ключа -i или --input
     else
         arg_num++;//+1 за само название файла
@@ -22,7 +39,8 @@ int main(int argc, char* argv[]) {
     if (output_file_name != NULL) {
         output_file_name[0] = '\0';
     }
-    if (get_output_file_name_and_has_it(argc, argv, output_file_name))
+    argv_copy = copyArgv(argv, argc);
+    if (get_output_file_name_and_has_it(argc, argv_copy, output_file_name))
         arg_num += 2; //за название файла + ключ
     else
         output_file_name = "out.bmp";
@@ -39,10 +57,11 @@ int main(int argc, char* argv[]) {
         case extraFunc:
             printf("Error: possible to use only one function at a time\n");
             return 41;
-        case mirrorFunc: {
+        case mirrorFunc: { //
             MirrorSpec *spec = malloc(sizeof(MirrorSpec));
-            if(!get_mirror_args(argc, argv, spec)){
-                printf("Error: parsing arguments for mirror function, non correct format\n");
+            argv_copy = copyArgv(argv, argc);
+            if(!get_mirror_args(argc, argv_copy, spec)){
+                printf("Error: when parsing arguments for mirror function, non correct format\n");
                 return 42;
             }
             arg_num += 7;
@@ -58,8 +77,9 @@ int main(int argc, char* argv[]) {
             break;
         case copyFunc: {
             CopySpec *spec = malloc(sizeof(CopySpec));
-            if(!get_copy_args(argc, argv, spec)){
-                printf("Error: parsing arguments for copy function, non correct format\n");
+            argv_copy = copyArgv(argv, argc);
+            if(!get_copy_args(argc, argv_copy, spec)){
+                printf("Error: when parsing arguments for copy function, non correct format\n");
                 return 42;
             }
             arg_num += 7;
@@ -76,9 +96,9 @@ int main(int argc, char* argv[]) {
             break;
         case colorReplaceFunc:{
             ColorReplaceSpec *spec = malloc(sizeof(ColorReplaceSpec));
-
-            if(!get_color_replacement_args(argc, argv, spec)){
-                printf("Error: parsing arguments for replace color function, non correct format\n");
+            argv_copy = copyArgv(argv, argc);
+            if(!get_color_replacement_args(argc, argv_copy, spec)){
+                printf("Error: when parsing arguments for replace color function, non correct format\n");
                 return 42;
             }
             arg_num += 5;
@@ -95,8 +115,9 @@ int main(int argc, char* argv[]) {
             break;
         case splitFunc:{
             BorderSplitSpec *spec = malloc(sizeof(BorderSplitSpec));
-            if(!get_border_split_args(argc, argv, spec)){
-                printf("Error: parsing arguments for split function, non correct format\n");
+            argv_copy = copyArgv(argv, argc);
+            if(!get_border_split_args(argc, argv_copy, spec)){
+                printf("Error: when parsing arguments for split function, non correct format\n");
                 return 42;
             }
             arg_num += 9;
@@ -119,7 +140,7 @@ int main(int argc, char* argv[]) {
     }
 
 
-    printf("\t\t argc - %d and arguments_num - %d\n\n", argc, arg_num);
+    printf("argc - %d and arguments_num - %d\n\n", argc, arg_num);
 
 
 

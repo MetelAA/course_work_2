@@ -36,9 +36,9 @@ typedef struct {
 } BitmapInfoHeader;
 
 typedef struct {
-    unsigned char b;
-    unsigned char g;
-    unsigned char r;
+    unsigned int b;
+    unsigned int g;
+    unsigned int r;
 } Rgb;
 
 #pragma pack(pop)

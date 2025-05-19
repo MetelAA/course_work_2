@@ -83,8 +83,4 @@ enum FuncType{
     infoFunc
 };
 
-enum parsingArgsError{
-
-};
-
 #endif

@@ -1,6 +1,4 @@
 #include "parser.h"
-#include "../base_structs.h"
-#include "validator/canvas_entity_validator.h"
 
 enum FuncType func_status_is_empty(const enum FuncType *fType, enum FuncType setV);
 
@@ -22,6 +20,7 @@ enum FuncType get_func_type(int argc, char **argv) {
     };
 
     int opt;
+    optind = 0;
     enum FuncType fType = emptyFunc;
     while ((opt = getopt_long(argc, argv, "h", long_opt, NULL)) != -1) {
         switch (opt) {
@@ -66,9 +65,21 @@ bool get_mirror_args(int argc, char **argv, MirrorSpec *spec) {
             {0,0,0,0}
     };
 
+    printf("argc - %d\n", argc);
+    for (int i = 0; i < argc; ++i) {
+        printf("argv - %s\n", argv[i]);
+    }
 
     int opt;
+    optind = 0;
+
+    printf("pizda - %s huita - %d\n", argv[optind], optind);
+
     while((opt = getopt_long(argc, argv, "a:l:r:", long_opt, NULL)) != -1){
+        printf("opt get opt||| optarg - %s\n", optarg);
+        char *a = optarg;
+        int b = optind;
+        char *z = argv[b];
         switch(opt){
             case 'a':
                 if(!check_axis(optarg))
@@ -104,6 +115,7 @@ bool get_copy_args(int argc, char **argv, CopySpec* spec) {
             {0,0,0,0}
     };
     int opt;
+    optind = 0;
     while((opt = getopt_long(argc, argv, "l:r:d:", long_opt, NULL)) != -1){
         switch(opt){
             case 'l': {
@@ -142,6 +154,7 @@ bool get_color_replacement_args(int argc, char **argv, ColorReplaceSpec* spec) {
             {0,0,0,0}
     };
     int opt;
+    optind = 0;
     while((opt = getopt_long(argc, argv, "o:n:", long_opt, NULL)) != -1){
         switch(opt){
             case 'o': {
@@ -174,6 +187,7 @@ bool get_border_split_args(int argc, char **argv, BorderSplitSpec* spec) {
             {0,0,0,0}
     };
     int opt;
+    optind = 0;
     while((opt = getopt_long(argc, argv, "l:r:d:", long_opt, NULL)) != -1){
         switch(opt){
             case 'x':{
@@ -217,6 +231,7 @@ bool get_input_file_name_and_has_iFlag(int argc, char **argv, char *file_name) {
             {0,       0, 0,                    0}
     };
     int opt;
+    optind = 0;
     while ((opt = getopt_long(argc, argv, "i:", long_opt, NULL)) != -1) {
         switch (opt) {
             case 'i':
@@ -236,6 +251,7 @@ bool get_output_file_name_and_has_it(int argc, char **argv, char *file_name) {
             {0,        0, 0,                    0}
     };
     int opt;
+    optind = 0;
     while ((opt = getopt_long(argc, argv, "o:", long_opt, NULL)) != -1) {
         switch (opt) {
             case 'o':

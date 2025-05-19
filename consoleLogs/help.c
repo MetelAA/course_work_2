@@ -1,6 +1,6 @@
 #include "help.h"
 
-void print_info(){
+void print_help(){
     printf("Справка о программе!\n");
 
     printf("Данная программа обладает флагами:\n"

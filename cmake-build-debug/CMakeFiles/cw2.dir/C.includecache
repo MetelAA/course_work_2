@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProj/cw2/base_structs.h
+stdio.h
+-
+getopt.h
+-
+stdbool.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+limits.h
+-
+
+D:/ClionProj/cw2/parser/parser.c
+parser.h
+D:/ClionProj/cw2/parser/parser.h
+
+D:/ClionProj/cw2/parser/parser.h
+../base_structs.h
+D:/ClionProj/cw2/base_structs.h
+validator/canvas_entity_validator.h
+D:/ClionProj/cw2/parser/validator/canvas_entity_validator.h
+
+D:/ClionProj/cw2/parser/validator/base_validator.h
+../../base_structs.h
+D:/ClionProj/cw2/base_structs.h
+
+D:/ClionProj/cw2/parser/validator/canvas_entity_validator.h
+../../base_structs.h
+D:/ClionProj/cw2/base_structs.h
+base_validator.h
+D:/ClionProj/cw2/parser/validator/base_validator.h
+

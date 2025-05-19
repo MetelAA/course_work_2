@@ -2,7 +2,6 @@
 #include "parser/parser.h"
 #include "consoleLogs/help.h"
 #include "consoleLogs/info.h"
-#include "parser/parser.h"
 
 int main(int argc, char* argv[]) {
     printf("Course work for option 5.2, created by Artem Metelskii\n");
@@ -42,8 +41,8 @@ int main(int argc, char* argv[]) {
             return 41;
         case mirrorFunc: {
             MirrorSpec *spec = malloc(sizeof(MirrorSpec));
-            if(get_mirror_args(argc, argv, spec)){
-                printf("Error: parsing arguments for mirror function, non correct format");
+            if(!get_mirror_args(argc, argv, spec)){
+                printf("Error: parsing arguments for mirror function, non correct format\n");
                 return 42;
             }
             arg_num += 7;
@@ -59,8 +58,8 @@ int main(int argc, char* argv[]) {
             break;
         case copyFunc: {
             CopySpec *spec = malloc(sizeof(CopySpec));
-            if(get_copy_args(argc, argv, spec)){
-                printf("Error: parsing arguments for copy function, non correct format");
+            if(!get_copy_args(argc, argv, spec)){
+                printf("Error: parsing arguments for copy function, non correct format\n");
                 return 42;
             }
             arg_num += 7;
@@ -78,8 +77,8 @@ int main(int argc, char* argv[]) {
         case colorReplaceFunc:{
             ColorReplaceSpec *spec = malloc(sizeof(ColorReplaceSpec));
 
-            if(get_color_replacement_args(argc, argv, spec)){
-                printf("Error: parsing arguments for replace color function, non correct format");
+            if(!get_color_replacement_args(argc, argv, spec)){
+                printf("Error: parsing arguments for replace color function, non correct format\n");
                 return 42;
             }
             arg_num += 5;
@@ -96,8 +95,8 @@ int main(int argc, char* argv[]) {
             break;
         case splitFunc:{
             BorderSplitSpec *spec = malloc(sizeof(BorderSplitSpec));
-            if(get_border_split_args(argc, argv, spec)){
-                printf("Error: parsing arguments for split function, non correct format");
+            if(!get_border_split_args(argc, argv, spec)){
+                printf("Error: parsing arguments for split function, non correct format\n");
                 return 42;
             }
             arg_num += 9;

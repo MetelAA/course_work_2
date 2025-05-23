@@ -134,6 +134,97 @@ CMakeFiles/cw2.dir/parser/validator/canvas_entity_validator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cw2.dir/parser/validator/canvas_entity_validator.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProj\cw2\parser\validator\canvas_entity_validator.c -o CMakeFiles\cw2.dir\parser\validator\canvas_entity_validator.c.s
 
+CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj: CMakeFiles/cw2.dir/flags.make
+CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj: ../image_funcs/file_actions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cw2.dir\image_funcs\file_actions.c.obj   -c D:\ClionProj\cw2\image_funcs\file_actions.c
+
+CMakeFiles/cw2.dir/image_funcs/file_actions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cw2.dir/image_funcs/file_actions.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ClionProj\cw2\image_funcs\file_actions.c > CMakeFiles\cw2.dir\image_funcs\file_actions.c.i
+
+CMakeFiles/cw2.dir/image_funcs/file_actions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cw2.dir/image_funcs/file_actions.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProj\cw2\image_funcs\file_actions.c -o CMakeFiles\cw2.dir\image_funcs\file_actions.c.s
+
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj: CMakeFiles/cw2.dir/flags.make
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj: ../image_funcs/image_mirror_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cw2.dir\image_funcs\image_mirror_func.c.obj   -c D:\ClionProj\cw2\image_funcs\image_mirror_func.c
+
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ClionProj\cw2\image_funcs\image_mirror_func.c > CMakeFiles\cw2.dir\image_funcs\image_mirror_func.c.i
+
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProj\cw2\image_funcs\image_mirror_func.c -o CMakeFiles\cw2.dir\image_funcs\image_mirror_func.c.s
+
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj: CMakeFiles/cw2.dir/flags.make
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj: ../image_funcs/image_copy_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cw2.dir\image_funcs\image_copy_func.c.obj   -c D:\ClionProj\cw2\image_funcs\image_copy_func.c
+
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ClionProj\cw2\image_funcs\image_copy_func.c > CMakeFiles\cw2.dir\image_funcs\image_copy_func.c.i
+
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProj\cw2\image_funcs\image_copy_func.c -o CMakeFiles\cw2.dir\image_funcs\image_copy_func.c.s
+
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj: CMakeFiles/cw2.dir/flags.make
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj: ../image_funcs/image_color_replace_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cw2.dir\image_funcs\image_color_replace_func.c.obj   -c D:\ClionProj\cw2\image_funcs\image_color_replace_func.c
+
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ClionProj\cw2\image_funcs\image_color_replace_func.c > CMakeFiles\cw2.dir\image_funcs\image_color_replace_func.c.i
+
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProj\cw2\image_funcs\image_color_replace_func.c -o CMakeFiles\cw2.dir\image_funcs\image_color_replace_func.c.s
+
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj: CMakeFiles/cw2.dir/flags.make
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj: ../image_funcs/image_split_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cw2.dir\image_funcs\image_split_func.c.obj   -c D:\ClionProj\cw2\image_funcs\image_split_func.c
+
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cw2.dir/image_funcs/image_split_func.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ClionProj\cw2\image_funcs\image_split_func.c > CMakeFiles\cw2.dir\image_funcs\image_split_func.c.i
+
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cw2.dir/image_funcs/image_split_func.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProj\cw2\image_funcs\image_split_func.c -o CMakeFiles\cw2.dir\image_funcs\image_split_func.c.s
+
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj: CMakeFiles/cw2.dir/flags.make
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj: ../image_funcs/image_border_with_extension.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cw2.dir\image_funcs\image_border_with_extension.c.obj   -c D:\ClionProj\cw2\image_funcs\image_border_with_extension.c
+
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ClionProj\cw2\image_funcs\image_border_with_extension.c > CMakeFiles\cw2.dir\image_funcs\image_border_with_extension.c.i
+
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProj\cw2\image_funcs\image_border_with_extension.c -o CMakeFiles\cw2.dir\image_funcs\image_border_with_extension.c.s
+
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj: CMakeFiles/cw2.dir/flags.make
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj: ../image_funcs/encircle_white_area.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cw2.dir\image_funcs\encircle_white_area.c.obj   -c D:\ClionProj\cw2\image_funcs\encircle_white_area.c
+
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ClionProj\cw2\image_funcs\encircle_white_area.c > CMakeFiles\cw2.dir\image_funcs\encircle_white_area.c.i
+
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ClionProj\cw2\image_funcs\encircle_white_area.c -o CMakeFiles\cw2.dir\image_funcs\encircle_white_area.c.s
+
 # Object files for target cw2
 cw2_OBJECTS = \
 "CMakeFiles/cw2.dir/main.c.obj" \
@@ -141,7 +232,14 @@ cw2_OBJECTS = \
 "CMakeFiles/cw2.dir/parser/parser.c.obj" \
 "CMakeFiles/cw2.dir/consoleLogs/help.c.obj" \
 "CMakeFiles/cw2.dir/consoleLogs/info.c.obj" \
-"CMakeFiles/cw2.dir/parser/validator/canvas_entity_validator.c.obj"
+"CMakeFiles/cw2.dir/parser/validator/canvas_entity_validator.c.obj" \
+"CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj" \
+"CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj" \
+"CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj" \
+"CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj" \
+"CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj" \
+"CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj" \
+"CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj"
 
 # External object files for target cw2
 cw2_EXTERNAL_OBJECTS =
@@ -152,11 +250,18 @@ cw2.exe: CMakeFiles/cw2.dir/parser/parser.c.obj
 cw2.exe: CMakeFiles/cw2.dir/consoleLogs/help.c.obj
 cw2.exe: CMakeFiles/cw2.dir/consoleLogs/info.c.obj
 cw2.exe: CMakeFiles/cw2.dir/parser/validator/canvas_entity_validator.c.obj
+cw2.exe: CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj
+cw2.exe: CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj
+cw2.exe: CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj
+cw2.exe: CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj
+cw2.exe: CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj
+cw2.exe: CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj
+cw2.exe: CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj
 cw2.exe: CMakeFiles/cw2.dir/build.make
 cw2.exe: CMakeFiles/cw2.dir/linklibs.rsp
 cw2.exe: CMakeFiles/cw2.dir/objects1.rsp
 cw2.exe: CMakeFiles/cw2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable cw2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ClionProj\cw2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable cw2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cw2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

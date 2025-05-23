@@ -2,7 +2,8 @@
 #define CW2_INFO_H
 #include "stdio.h"
 #include "../base_structs.h"
+#include "../image_funcs/file_actions.h"
 
-void print_info(BitmapInfoHeader bmih, BitmapFileHeader bmfh);
+Error print_info(char* input_file_name);
 
 #endif

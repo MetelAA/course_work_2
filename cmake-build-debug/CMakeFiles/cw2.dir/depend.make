@@ -7,10 +7,52 @@ CMakeFiles/cw2.dir/consoleLogs/help.c.obj: ../consoleLogs/help.h
 CMakeFiles/cw2.dir/consoleLogs/info.c.obj: ../base_structs.h
 CMakeFiles/cw2.dir/consoleLogs/info.c.obj: ../consoleLogs/info.c
 CMakeFiles/cw2.dir/consoleLogs/info.c.obj: ../consoleLogs/info.h
+CMakeFiles/cw2.dir/consoleLogs/info.c.obj: ../image_funcs/file_actions.h
+
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj: ../base_structs.h
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj: ../image_funcs/encircle_white_area.c
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj: ../image_funcs/encircle_white_area.h
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj: ../image_funcs/file_actions.h
+
+CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj: ../base_structs.h
+CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj: ../image_funcs/file_actions.c
+CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj: ../image_funcs/file_actions.h
+
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj: ../base_structs.h
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj: ../image_funcs/file_actions.h
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj: ../image_funcs/image_border_with_extension.c
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj: ../image_funcs/image_border_with_extension.h
+
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj: ../base_structs.h
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj: ../image_funcs/file_actions.h
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj: ../image_funcs/image_color_replace_func.c
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj: ../image_funcs/image_color_replace_func.h
+
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj: ../base_structs.h
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj: ../image_funcs/file_actions.h
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj: ../image_funcs/image_copy_func.c
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj: ../image_funcs/image_copy_func.h
+
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj: ../base_structs.h
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj: ../image_funcs/file_actions.h
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj: ../image_funcs/image_mirror_func.c
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj: ../image_funcs/image_mirror_func.h
+
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj: ../base_structs.h
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj: ../image_funcs/file_actions.h
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj: ../image_funcs/image_split_func.c
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj: ../image_funcs/image_split_func.h
 
 CMakeFiles/cw2.dir/main.c.obj: ../base_structs.h
 CMakeFiles/cw2.dir/main.c.obj: ../consoleLogs/help.h
 CMakeFiles/cw2.dir/main.c.obj: ../consoleLogs/info.h
+CMakeFiles/cw2.dir/main.c.obj: ../image_funcs/encircle_white_area.h
+CMakeFiles/cw2.dir/main.c.obj: ../image_funcs/file_actions.h
+CMakeFiles/cw2.dir/main.c.obj: ../image_funcs/image_border_with_extension.h
+CMakeFiles/cw2.dir/main.c.obj: ../image_funcs/image_color_replace_func.h
+CMakeFiles/cw2.dir/main.c.obj: ../image_funcs/image_copy_func.h
+CMakeFiles/cw2.dir/main.c.obj: ../image_funcs/image_mirror_func.h
+CMakeFiles/cw2.dir/main.c.obj: ../image_funcs/image_split_func.h
 CMakeFiles/cw2.dir/main.c.obj: ../main.c
 CMakeFiles/cw2.dir/main.c.obj: ../parser/parser.h
 CMakeFiles/cw2.dir/main.c.obj: ../parser/validator/base_validator.h

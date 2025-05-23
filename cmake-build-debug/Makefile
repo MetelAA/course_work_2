@@ -176,6 +176,195 @@ consoleLogs/info.c.s:
 	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/consoleLogs/info.c.s
 .PHONY : consoleLogs/info.c.s
 
+image_funcs/encircle_white_area.obj: image_funcs/encircle_white_area.c.obj
+
+.PHONY : image_funcs/encircle_white_area.obj
+
+# target to build an object file
+image_funcs/encircle_white_area.c.obj:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj
+.PHONY : image_funcs/encircle_white_area.c.obj
+
+image_funcs/encircle_white_area.i: image_funcs/encircle_white_area.c.i
+
+.PHONY : image_funcs/encircle_white_area.i
+
+# target to preprocess a source file
+image_funcs/encircle_white_area.c.i:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.i
+.PHONY : image_funcs/encircle_white_area.c.i
+
+image_funcs/encircle_white_area.s: image_funcs/encircle_white_area.c.s
+
+.PHONY : image_funcs/encircle_white_area.s
+
+# target to generate assembly for a file
+image_funcs/encircle_white_area.c.s:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.s
+.PHONY : image_funcs/encircle_white_area.c.s
+
+image_funcs/file_actions.obj: image_funcs/file_actions.c.obj
+
+.PHONY : image_funcs/file_actions.obj
+
+# target to build an object file
+image_funcs/file_actions.c.obj:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj
+.PHONY : image_funcs/file_actions.c.obj
+
+image_funcs/file_actions.i: image_funcs/file_actions.c.i
+
+.PHONY : image_funcs/file_actions.i
+
+# target to preprocess a source file
+image_funcs/file_actions.c.i:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/file_actions.c.i
+.PHONY : image_funcs/file_actions.c.i
+
+image_funcs/file_actions.s: image_funcs/file_actions.c.s
+
+.PHONY : image_funcs/file_actions.s
+
+# target to generate assembly for a file
+image_funcs/file_actions.c.s:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/file_actions.c.s
+.PHONY : image_funcs/file_actions.c.s
+
+image_funcs/image_border_with_extension.obj: image_funcs/image_border_with_extension.c.obj
+
+.PHONY : image_funcs/image_border_with_extension.obj
+
+# target to build an object file
+image_funcs/image_border_with_extension.c.obj:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj
+.PHONY : image_funcs/image_border_with_extension.c.obj
+
+image_funcs/image_border_with_extension.i: image_funcs/image_border_with_extension.c.i
+
+.PHONY : image_funcs/image_border_with_extension.i
+
+# target to preprocess a source file
+image_funcs/image_border_with_extension.c.i:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.i
+.PHONY : image_funcs/image_border_with_extension.c.i
+
+image_funcs/image_border_with_extension.s: image_funcs/image_border_with_extension.c.s
+
+.PHONY : image_funcs/image_border_with_extension.s
+
+# target to generate assembly for a file
+image_funcs/image_border_with_extension.c.s:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.s
+.PHONY : image_funcs/image_border_with_extension.c.s
+
+image_funcs/image_color_replace_func.obj: image_funcs/image_color_replace_func.c.obj
+
+.PHONY : image_funcs/image_color_replace_func.obj
+
+# target to build an object file
+image_funcs/image_color_replace_func.c.obj:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj
+.PHONY : image_funcs/image_color_replace_func.c.obj
+
+image_funcs/image_color_replace_func.i: image_funcs/image_color_replace_func.c.i
+
+.PHONY : image_funcs/image_color_replace_func.i
+
+# target to preprocess a source file
+image_funcs/image_color_replace_func.c.i:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.i
+.PHONY : image_funcs/image_color_replace_func.c.i
+
+image_funcs/image_color_replace_func.s: image_funcs/image_color_replace_func.c.s
+
+.PHONY : image_funcs/image_color_replace_func.s
+
+# target to generate assembly for a file
+image_funcs/image_color_replace_func.c.s:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.s
+.PHONY : image_funcs/image_color_replace_func.c.s
+
+image_funcs/image_copy_func.obj: image_funcs/image_copy_func.c.obj
+
+.PHONY : image_funcs/image_copy_func.obj
+
+# target to build an object file
+image_funcs/image_copy_func.c.obj:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj
+.PHONY : image_funcs/image_copy_func.c.obj
+
+image_funcs/image_copy_func.i: image_funcs/image_copy_func.c.i
+
+.PHONY : image_funcs/image_copy_func.i
+
+# target to preprocess a source file
+image_funcs/image_copy_func.c.i:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.i
+.PHONY : image_funcs/image_copy_func.c.i
+
+image_funcs/image_copy_func.s: image_funcs/image_copy_func.c.s
+
+.PHONY : image_funcs/image_copy_func.s
+
+# target to generate assembly for a file
+image_funcs/image_copy_func.c.s:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.s
+.PHONY : image_funcs/image_copy_func.c.s
+
+image_funcs/image_mirror_func.obj: image_funcs/image_mirror_func.c.obj
+
+.PHONY : image_funcs/image_mirror_func.obj
+
+# target to build an object file
+image_funcs/image_mirror_func.c.obj:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj
+.PHONY : image_funcs/image_mirror_func.c.obj
+
+image_funcs/image_mirror_func.i: image_funcs/image_mirror_func.c.i
+
+.PHONY : image_funcs/image_mirror_func.i
+
+# target to preprocess a source file
+image_funcs/image_mirror_func.c.i:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.i
+.PHONY : image_funcs/image_mirror_func.c.i
+
+image_funcs/image_mirror_func.s: image_funcs/image_mirror_func.c.s
+
+.PHONY : image_funcs/image_mirror_func.s
+
+# target to generate assembly for a file
+image_funcs/image_mirror_func.c.s:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.s
+.PHONY : image_funcs/image_mirror_func.c.s
+
+image_funcs/image_split_func.obj: image_funcs/image_split_func.c.obj
+
+.PHONY : image_funcs/image_split_func.obj
+
+# target to build an object file
+image_funcs/image_split_func.c.obj:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj
+.PHONY : image_funcs/image_split_func.c.obj
+
+image_funcs/image_split_func.i: image_funcs/image_split_func.c.i
+
+.PHONY : image_funcs/image_split_func.i
+
+# target to preprocess a source file
+image_funcs/image_split_func.c.i:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_split_func.c.i
+.PHONY : image_funcs/image_split_func.c.i
+
+image_funcs/image_split_func.s: image_funcs/image_split_func.c.s
+
+.PHONY : image_funcs/image_split_func.s
+
+# target to generate assembly for a file
+image_funcs/image_split_func.c.s:
+	$(MAKE) -f CMakeFiles\cw2.dir\build.make CMakeFiles/cw2.dir/image_funcs/image_split_func.c.s
+.PHONY : image_funcs/image_split_func.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -299,6 +488,27 @@ help:
 	@echo ... consoleLogs/info.obj
 	@echo ... consoleLogs/info.i
 	@echo ... consoleLogs/info.s
+	@echo ... image_funcs/encircle_white_area.obj
+	@echo ... image_funcs/encircle_white_area.i
+	@echo ... image_funcs/encircle_white_area.s
+	@echo ... image_funcs/file_actions.obj
+	@echo ... image_funcs/file_actions.i
+	@echo ... image_funcs/file_actions.s
+	@echo ... image_funcs/image_border_with_extension.obj
+	@echo ... image_funcs/image_border_with_extension.i
+	@echo ... image_funcs/image_border_with_extension.s
+	@echo ... image_funcs/image_color_replace_func.obj
+	@echo ... image_funcs/image_color_replace_func.i
+	@echo ... image_funcs/image_color_replace_func.s
+	@echo ... image_funcs/image_copy_func.obj
+	@echo ... image_funcs/image_copy_func.i
+	@echo ... image_funcs/image_copy_func.s
+	@echo ... image_funcs/image_mirror_func.obj
+	@echo ... image_funcs/image_mirror_func.i
+	@echo ... image_funcs/image_mirror_func.s
+	@echo ... image_funcs/image_split_func.obj
+	@echo ... image_funcs/image_split_func.i
+	@echo ... image_funcs/image_split_func.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

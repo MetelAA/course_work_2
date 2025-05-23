@@ -9,8 +9,6 @@
 #include <string.h>
 #include <limits.h>
 
-
-
 #pragma pack(push, 1)
 
 typedef struct {
@@ -36,15 +34,16 @@ typedef struct {
 } BitmapInfoHeader;
 
 typedef struct {
-    unsigned int b;
-    unsigned int g;
-    unsigned int r;
+    unsigned char b;
+    unsigned char g;
+    unsigned char r;
 } Rgb;
 
 #pragma pack(pop)
 
 typedef struct {
-    unsigned int x, y;
+    int x;
+    int y;
 } Point;
 
 typedef struct {
@@ -72,6 +71,9 @@ typedef struct {
 } ColorReplaceSpec;
 
 enum FuncType{
+    whiteAreaBorderFunc,
+    outimageBorderFunc,
+
     emptyFunc,
     errorFunc,
     extraFunc,
@@ -82,5 +84,22 @@ enum FuncType{
     helpFunc,
     infoFunc
 };
+
+
+
+
+typedef struct{
+    Rgb *color;
+} WhiteAreaBorder;
+
+typedef struct{
+    Rgb *color;
+    int thickness;
+} OutimageBorderSpec;
+
+typedef struct {
+    bool hasError;
+    char *msg;
+}Error;
 
 #endif

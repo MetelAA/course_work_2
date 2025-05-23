@@ -8,10 +8,52 @@ CMakeFiles/cw2.dir/consoleLogs/info.c.obj
  D:/ClionProj/cw2/base_structs.h
  D:/ClionProj/cw2/consoleLogs/info.c
  D:/ClionProj/cw2/consoleLogs/info.h
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+CMakeFiles/cw2.dir/image_funcs/encircle_white_area.c.obj
+ D:/ClionProj/cw2/base_structs.h
+ D:/ClionProj/cw2/image_funcs/encircle_white_area.c
+ D:/ClionProj/cw2/image_funcs/encircle_white_area.h
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+CMakeFiles/cw2.dir/image_funcs/file_actions.c.obj
+ D:/ClionProj/cw2/base_structs.h
+ D:/ClionProj/cw2/image_funcs/file_actions.c
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+CMakeFiles/cw2.dir/image_funcs/image_border_with_extension.c.obj
+ D:/ClionProj/cw2/base_structs.h
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+ D:/ClionProj/cw2/image_funcs/image_border_with_extension.c
+ D:/ClionProj/cw2/image_funcs/image_border_with_extension.h
+CMakeFiles/cw2.dir/image_funcs/image_color_replace_func.c.obj
+ D:/ClionProj/cw2/base_structs.h
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+ D:/ClionProj/cw2/image_funcs/image_color_replace_func.c
+ D:/ClionProj/cw2/image_funcs/image_color_replace_func.h
+CMakeFiles/cw2.dir/image_funcs/image_copy_func.c.obj
+ D:/ClionProj/cw2/base_structs.h
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+ D:/ClionProj/cw2/image_funcs/image_copy_func.c
+ D:/ClionProj/cw2/image_funcs/image_copy_func.h
+CMakeFiles/cw2.dir/image_funcs/image_mirror_func.c.obj
+ D:/ClionProj/cw2/base_structs.h
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+ D:/ClionProj/cw2/image_funcs/image_mirror_func.c
+ D:/ClionProj/cw2/image_funcs/image_mirror_func.h
+CMakeFiles/cw2.dir/image_funcs/image_split_func.c.obj
+ D:/ClionProj/cw2/base_structs.h
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+ D:/ClionProj/cw2/image_funcs/image_split_func.c
+ D:/ClionProj/cw2/image_funcs/image_split_func.h
 CMakeFiles/cw2.dir/main.c.obj
  D:/ClionProj/cw2/base_structs.h
  D:/ClionProj/cw2/consoleLogs/help.h
  D:/ClionProj/cw2/consoleLogs/info.h
+ D:/ClionProj/cw2/image_funcs/encircle_white_area.h
+ D:/ClionProj/cw2/image_funcs/file_actions.h
+ D:/ClionProj/cw2/image_funcs/image_border_with_extension.h
+ D:/ClionProj/cw2/image_funcs/image_color_replace_func.h
+ D:/ClionProj/cw2/image_funcs/image_copy_func.h
+ D:/ClionProj/cw2/image_funcs/image_mirror_func.h
+ D:/ClionProj/cw2/image_funcs/image_split_func.h
  D:/ClionProj/cw2/main.c
  D:/ClionProj/cw2/parser/parser.h
  D:/ClionProj/cw2/parser/validator/base_validator.h

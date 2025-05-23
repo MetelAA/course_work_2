@@ -91,6 +91,48 @@
 		<Unit filename="D:/ClionProj/cw2/consoleLogs/info.h">
 			<Option target="cw2"/>
 		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/encircle_white_area.c">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/encircle_white_area.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/file_actions.c">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/file_actions.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_border_with_extension.c">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_border_with_extension.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_color_replace_func.c">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_color_replace_func.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_copy_func.c">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_copy_func.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_mirror_func.c">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_mirror_func.h">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_split_func.c">
+			<Option target="cw2"/>
+		</Unit>
+		<Unit filename="D:/ClionProj/cw2/image_funcs/image_split_func.h">
+			<Option target="cw2"/>
+		</Unit>
 		<Unit filename="D:/ClionProj/cw2/main.c">
 			<Option target="cw2"/>
 		</Unit>
